@@ -4,5 +4,5 @@ npm run dev
 ```
 
 ```
-npm run deploy
+curl http://localhost:5173/static/
 ```
