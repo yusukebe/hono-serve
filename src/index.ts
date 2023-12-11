@@ -1,9 +1,7 @@
-import { Hono } from "hono";
-import { serveStatic } from "hono/cloudflare-workers";
+import { Hono } from 'hono'
 
-const app = new Hono();
+const app = new Hono()
 
-app.get("/", (c) => c.text("Hello Hono!"));
-app.get("/static/*", serveStatic({ root: "./" }));
+app.get('/', (c) => c.text('Hello Hono!'))
 
-export default app;
+export default app
