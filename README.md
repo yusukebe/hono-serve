@@ -1,8 +1,17 @@
-```
-npm install
+Development with Vite
+
+```txt
 npm run dev
 ```
 
+Development with Wrangler
+
+```txt
+npm run dev:wrangler
 ```
-curl http://localhost:5173/static/
+
+Deploying
+
+```txt
+npm run deploy
 ```
